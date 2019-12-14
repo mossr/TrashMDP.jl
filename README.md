@@ -21,7 +21,7 @@ If you're interested, you can read my final paper here: [`final.pdf`](https://gi
   - **Allocation.jl**: Allocation algorithm for determining shortest path (A*)
   - **Planning.jl**: Markov decision process (MDP) formulation of the trash collection problem
   - **simulation.jl**: Primary code entry point to run simulations and collect data for analysis
-  - **dependencies.jl**: Julia package dependencies (calling this will tell you want to install via `Pkg.add("...")`)
+  - **dependencies.jl**: Julia package dependencies (running this will tell you what to install via `Pkg.add("...")`)
   - **visualization.jl**: Visualization and animation code
   - **plotting.jl**: Plotting for the metrics collected during simulation
   - **multiagent_plotting.jl**: Plotting for multi-agent analysis
