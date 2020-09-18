@@ -2,12 +2,12 @@
 
 
 
-# CS221: Resource Allocation and Planning for Automated Trash Collection
+# Automated Trash Collection using Markov Decision Processes
 _Robert Moss, Stanford University, Autumn 2019 (Final Project)_
 
 This repository is for my final project in CS221: Artificial Intelligence: Principles and Techniques at Stanford University.
 
-If you're interested, you can read my final paper here: [`final.pdf`](https://github.com/mossr/TrashMDP.jl/blob/master/final.pdf)
+If you're interested, you can read the research report here: [`trashmdp.pdf`](https://github.com/mossr/TrashMDP.jl/blob/master/trashmdp.pdf)
 
 > **Requirements:** Julia v1.2
 
