@@ -69,10 +69,7 @@ POMDPs.discount(s::PlanningMDP) = 0.99
 
 # Actions - 2-5 for movement, 1 for do nothing (1-4 are GridWorld movements, 1 is nothing for max() tie-breaker)
 const N_ACTIONS = 5
-POMDPs.n_actions(s::PlanningMDP) = N_ACTIONS
 POMDPs.actions(s::PlanningMDP) = 1:N_ACTIONS
-
-POMDPs.n_states(mdp::Planning.PlanningMDP) = NUM_ROADS+length(mdp.locations)
 POMDPs.actionindex(mdp::Planning.PlanningMDP, a::Int) = a
 
 function accumulate!(mdp)
