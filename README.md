@@ -31,7 +31,7 @@ If you're interested, you can read the research report here: [`trashmdp.pdf`](ht
 - **plots**: Saved visualizations
 
 ## Running
-- Either open `TrashMDP.jl.ipynb` and run the cells, or open Julia on a command line, cd to `src` and run the following:
+- Either open `TrashMDP.jl.ipynb` and run the cells, or cd to `src` and open a [Jupyter notebook](https://github.com/JuliaLang/IJulia.jl), then run the following:
 
 ```julia
 include("simulation.jl")
